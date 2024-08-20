@@ -1,0 +1,13 @@
+default:
+  outputs:
+    dev:
+      account: yuwjpsv-so04878
+      database: analytics
+      password: '@Mynameissid17'
+      role: dbt_role
+      schema: dbt_srane
+      threads: 2
+      type: snowflake
+      user: siddhesh
+      warehouse: transforming
+  target: dev
